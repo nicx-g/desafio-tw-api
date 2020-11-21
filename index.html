@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <script defer src="./src/js/jquery.min.js"></script>
+    <script defer src="./src/js/main.js"></script>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    
+    <div class="main-container">
+        <h1>¡Mi perfil en GitHub!</h1>
+        <form id="form">
+            <input autofocus id="user" type="text" placeholder="Ingresá tu user en Github">
+            <button id="btn" type="submit">Enviar</button>
+        </form>
+        <div class="user-info">
+            <div class="user-img">
+                <img id="user-img" width="200px" height="200px" alt="">
+            </div>
+            <div class="basicInfo">
+                <h2 id="userName">¿Quién será?</h2>
+                <h2 id="userlocation">¿Dónde vivirá?</h2>
+                <p id="error">No encontramos el usuario :(</p>
+            </div>
+            <div class="userInfo">
+                <div>
+                    <p>Repos</p>
+                    <span id="repos"></span>
+                </div>
+                <div>
+                    <p>Gist</p>
+                    <span id="gists"></span>
+                </div>
+                <div>
+                    <p>Followers</p>
+                    <span id="followers"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
